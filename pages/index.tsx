@@ -87,6 +87,31 @@ const Home: NextPage = () => {
             />
           </div>
         </section>
+        <section className="ml-28 mr-28 mt-8">
+          <h2 className="text-2xl mb-1">Join Our Groups</h2>
+          <div className="flex justify-evenly mt-11 mb-8">
+            <div className="p-2">
+              <a href="">
+                <img src="instagram.png" style={{ width: "100px" }} alt="" />
+              </a>
+            </div>
+            <div className="p-2">
+              <a href="">
+                <img src="discord.png" style={{ width: "100px" }} alt="" />
+              </a>
+            </div>
+            <div className="p-2">
+              <a href="">
+                <img src="whatsapp.png" style={{ width: "100px" }} alt="" />
+              </a>
+            </div>
+            <div className="p-2">
+              <a href="">
+                <img src="telegram.png" style={{ width: "100px" }} alt="" />
+              </a>
+            </div>
+          </div>
+        </section>
       </main>
       <footer className="w-full"></footer>
     </div>
