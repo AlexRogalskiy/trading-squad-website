@@ -29,7 +29,7 @@ const Home: NextPage = () => {
                 Returns 💸
               </h1>
               <a href="#social">
-                <button className="mt-5 p-5 bg-blue-500 text-white rounded-md shadow-md">
+                <button className="mt-5 p-5 bg-blue-500 text-white rounded-md shadow-md hover:bg-blue-600">
                   Join Community !
                 </button>
               </a>
@@ -92,26 +92,26 @@ const Home: NextPage = () => {
         <section className="ml-28 mr-28 mt-8" id="social">
           <h2 className="text-2xl mb-1">Join Our Groups</h2>
           <div className="flex justify-evenly mt-11 mb-8">
-            <div className="p-2">
+            {/* <div className="p-2">
               <a href="">
                 <img src="instagram.png" className="media-links" alt="" />
               </a>
-            </div>
+            </div> */}
             <div className="p-2">
-              <a href="">
+              <a href="https://discord.gg/mFjWM8xk">
                 <img src="discord.png" className="media-links" alt="" />
               </a>
             </div>
             <div className="p-2">
-              <a href="">
+              <a href="https://wa.link/9bf2u8">
                 <img src="whatsapp.png" className="media-links" alt="" />
               </a>
             </div>
-            <div className="p-2">
+            {/* <div className="p-2">
               <a href="">
                 <img src="telegram.png" className="media-links" alt="" />
               </a>
-            </div>
+            </div> */}
           </div>
         </section>
       </main>
