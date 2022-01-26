@@ -31,8 +31,8 @@ a {
 
 .media-links {
   width: 100px;
-  transition: 300ms ease-in-out;
+  transition: 150ms ease-in-out;
 }
 .media-links:hover {
-  width: 120px;
+  width: 115px;
 }
