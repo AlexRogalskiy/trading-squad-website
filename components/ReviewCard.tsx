@@ -10,7 +10,7 @@ export default function ReviewCard({ name, image, review }: Props) {
   return (
     <>
       <div
-        className="flex flex-col justify-center items-center p-2 shadow-lg rounded-md m-3"
+        className="flex flex-col justify-center items-center p-2 shadow-md rounded-md m-3"
         style={{ width: "18rem" }}
       >
         <img src={image} alt={review} className="rounded-full shadow-md mb-2" style={{ height: "7rem" }} />
