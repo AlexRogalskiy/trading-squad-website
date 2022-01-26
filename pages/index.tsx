@@ -3,6 +3,8 @@ import Head from "next/head";
 import NavBar from "../components/NavBar";
 import ReviewCard from "../components/ReviewCard";
 
+const currentYear = new Date().getFullYear();
+
 const Home: NextPage = () => {
   return (
     <div>
@@ -115,7 +117,10 @@ const Home: NextPage = () => {
           </div>
         </section>
       </main>
-      <footer className="w-full h-56 bg-black mt-12"></footer>
+      <footer className="w-full h-56 bg-black text-white mt-12 flex flex-col justify-center items-center">
+        <h2 className="text-xl"> Thanks for your visit </h2>
+        <small>&copy; Copyright { currentYear }, Trading Squad</small>
+      </footer>
     </div>
   );
 };
