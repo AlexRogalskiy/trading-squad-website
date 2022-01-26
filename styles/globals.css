@@ -28,3 +28,11 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.media-links {
+  width: 100px;
+  transition: 300ms ease-in-out;
+}
+.media-links:hover {
+  width: 120px;
+}
