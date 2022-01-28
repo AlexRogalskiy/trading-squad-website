@@ -1,12 +1,13 @@
+import { useRouter } from "next/router";
 import React from "react";
 
 type Props = {};
-const domain = location.href;
 
 export default function Brand({}: Props) {
+  const router = useRouter();
   return (
     <>
-      <a href={domain}>
+      <a href={router.asPath}>
         <div className="flex items-center">
           <img
             src="logo.jpg"
